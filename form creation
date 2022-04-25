@@ -1,0 +1,65 @@
+form2.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<!-- -->
+
+<body>
+    <section>
+        <h1>Please fill out the form below</h1>
+            <form action="/names">
+                <!-- Binding the "first name" label to the first name input textbox -->
+
+                <p>
+                    <label for="firstname">Enter first name:</label>
+                    <input id="firstname" type="text" placeholder="First Name" name="firstname">
+
+                </p>
+
+                <!-- Binding the "last name" label to the last name input textbox -->
+
+                <p>
+                    <label for="lastname">Enter last name:</label>
+                    <input id="lastname" type="lastname" placeholder="Last Name" name="lastname">
+
+                </p>
+
+                <!--Created a label element that illustrates 3 possibble options-->
+
+                <P>
+                    <label for="eatfood">What food would you like to eat?</label>
+
+                <!-- Created a select element that binds with 3 option elements-->
+
+                    <select name="eat" id="eatfood">
+
+                <!--Created 3 option elements and attached 3 value attributes  -->
+
+                        <option value="chicken">chicken</option>
+
+                        <option value="pizza">pizza</option>
+
+                        <option value="Hamburger">hamburger</option>
+
+                    </select>
+                </P>
+                <!-- Created a label element and binded it with the text area box-->
+                <p>
+                    <label for="allergies">Do you have any allergies?</label>
+
+                    <textarea id="allergies" name="allergies" rows="10" cols="10" placeholder="name of allergies"></textarea>
+                </p>
+                <!--Created a button to submit all the information inputed above-->
+
+                <button>Submit</button>
+            </form>
+
+    </section>
+</body>
+</html>
