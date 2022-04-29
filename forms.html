@@ -1,0 +1,128 @@
+forms.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<!-- This body contains 3 sections. Each section contains a binding label with different functionalities -->
+<body>
+    <section>
+        <h1>UserName and Password</h1>
+            <form action="/tacos">
+                <!-- This is a username textbox with a binding label -->
+                <p>
+                    <label for="username">Enter A Name:</label>
+                    <input id="username" type="text" placeholder="Username" name="username">
+
+                </p>
+                <!-- This is a password textbox with a binding label -->
+                <p>
+                    <label for="password">Enter A Password:</label>
+                    <input id="password" type="password" placeholder="Password" name="password">
+
+                </p>
+                <!-- This is a submit button-->
+                <button>Submit Button</button>
+
+            </form>
+    </section>
+    <hr>
+    <!--This will give the client 3 options to choose from -->
+    <section>
+        <h1>Query Strings</h1>
+        <!-- This is a form that links to reddit's website search engine -->
+            <form action="https://www.reddit.com/search/">
+        <!-- This is an empty search engine textbox -->
+                <input type="text" name="q">
+        <!-- This is the submit button -->
+                <button>Submit Reddit</button>
+            </form>
+        <!-- This is a form that links to youtube's website search engine-->
+            <form action="https://www.youtube.com/results?search_query=">
+        <!-- This is an empty search engine textbox -->
+                <input type="text" name="q">
+        <!-- This is a submit button -->
+                <button>Search YouTube</button>
+
+            </form>
+        <!-- This is a form that links to Google's website search engine -->
+            <form action="https://www.google.com/search">
+        <!-- This is an empty search engine textbox -->
+                <input type="text" name="q">
+        <!-- This is a submit button -->
+                <button>Google Search</button>
+
+            </form>
+
+    </section>
+    <hr>
+<!-- This section represents the Radio Buttons and Checkboxes -->
+    <section>
+        <h1>Radio Buttons and Checkboxes</h1>
+            <form action="/birds">
+                <!-- This is a checkbox with a binding label -->
+                <label for="agree">I agree to everything</label>
+                <input type="checkbox" name="agree_tos" id="agree">
+
+                <!-- These are 3 radio button with 3 labels. Each label has a value of small, medium and large-->
+                <p>
+                <!-- This is a radio button with a binding label and a value of small-->
+                    <label for="s">Small</label>
+                    <input type="radio" name="size" id="s" value="small">
+                <!-- This is a radio button with a binding label and a value of medium-->
+                    <label for="m">Medium</label>
+                    <input type="radio" name="size" id="m" value="medium">
+                <!--This is a radio button with a binding label and a value of large-->
+                    <label for="l">Large</label>
+                    <input type="radio" name="size" id="l" value="large">
+
+                </p>
+                <!-- I have a combo box with 3 different options-->
+                <p>
+                <!-- I have a label that ask the client which favorite color to choose from-->
+                    <label for="favColor">What is your favorite color</label>
+                <!--I have a select option with a binding label-->
+                    <select name="favorite" id="favColor">
+                <!-- This label contains the option of colors to choose from. Each option has a value of a different color-->
+                        <option value="Default">Default Option</option>
+                        <option value="Red">Red</option>
+
+                        <option value="Green">Green</option>
+
+                        <option value="Blue">Blue</option>
+                        
+                    </select>
+
+                </p>
+
+                <!-- This section shows a scrollbar -->
+                <p>
+                <!-- I have a range with a binding label. The range has a minimum value of 5 and a maximum value of 10-->
+                    <label for="scroll">Monte's Scrollbar</label>
+                    <input type="range" id="scroll" min="5" max="10" name="scrollbar">
+
+                </p>
+                <!--This section shows a request textarea -->
+                <p>
+                <!-- I have a textarea with a binding label. The textarea contains a placeholder. The textarea contains 15 columns and 15 rows.-->
+                    <label for="requests">Type Into This Box</label>
+                    <textarea id="requests" name="reqs" rows="15" cols="15" placeholder="Type Something Here!"></textarea>
+
+                </p>
+                <!-- This is a submit button -->
+                <button>Submit Button</button>
+            </form>
+    </section>
+   
+    <hr>
+    <section>
+        <!-- A second header -->
+        <h2> form validation</h2>
+
+    </section>    
+</body>
+</html>
