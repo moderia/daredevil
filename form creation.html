@@ -8,13 +8,13 @@ form2.html
     <title>Forms</title>
 </head>
 
-<!-- -->
+<!--This body contains a form with different elements and their own functionalities -->
 
 <body>
     <section>
         <h1>Please fill out the form below</h1>
             <form action="/names">
-                <!-- Binding the "first name" label to the first name input textbox -->
+                <!-- This is a textbox with a binding label. Tis textbox is for the first name. -->
 
                 <p>
                     <label for="firstname">Enter first name:</label>
@@ -22,7 +22,7 @@ form2.html
 
                 </p>
 
-                <!-- Binding the "last name" label to the last name input textbox -->
+                <!-- This is a textbox witha binding label. This textbox is for the last name.-->
 
                 <p>
                     <label for="lastname">Enter last name:</label>
@@ -30,16 +30,16 @@ form2.html
 
                 </p>
 
-                <!--Created a label element that illustrates 3 possibble options-->
+                <!--I have a box combo with 3 options of food.-->
 
                 <P>
                     <label for="eatfood">What food would you like to eat?</label>
 
-                <!-- Created a select element that binds with 3 option elements-->
+                <!-- I have a select that is binded to a label-->
 
                     <select name="eat" id="eatfood">
 
-                <!--Created 3 option elements and attached 3 value attributes  -->
+                <!--I have 3 options. Each option contains a value of a type of food-->
 
                         <option value="chicken">chicken</option>
 
@@ -49,20 +49,16 @@ form2.html
 
                     </select>
                 </P>
-                <!-- Created a label element and binded it with the text area box-->
+                <!-- This is a textarea that is binded to a label. The textarea contains a placeholder. Textarea has 10 clomuns and 10 rows-->
                 <p>
                     <label for="allergies">Do you have any allergies?</label>
 
                     <textarea id="allergies" name="allergies" rows="10" cols="10" placeholder="name of allergies"></textarea>
                 </p>
-                <!--Created a button to submit all the information inputed above-->
-                
+                <!--This is a submit button-->
+
                 <button>Submit</button>
             </form>
-
-
-
-
 
     </section>
 </body>
