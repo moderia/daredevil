@@ -1,0 +1,9 @@
+/* links to anchor tag desecendents of header */
+h1> a{
+    font-size:30px;
+    color:red;
+}
+/* links to anchor tag desecendents of Id selectors */
+#colors > a{
+    color:green;
+}
