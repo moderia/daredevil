@@ -1,0 +1,38 @@
+/* body element selector */
+body {
+    background-color: lightblue;
+
+}
+
+/*button element selector */
+button {
+    font-size: 25px;
+
+}
+
+/* header selectors */
+h1,h2 {
+    color:black;
+}
+
+/* id selector */
+
+#signup {
+    background-color: red;
+    color:black;
+}
+
+/* class selector */
+.semifinals {
+    color:black;
+}
+
+/*  section element's desecendent class selectors */
+.post a{
+    color:pink;
+}
+
+/* footer element descendent selectors  */
+footer > a{
+    color:red;
+}

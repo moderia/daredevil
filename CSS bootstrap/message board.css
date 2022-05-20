@@ -1,0 +1,32 @@
+messageboard.css
+/*  */
+body {
+    background-color: green;
+
+}
+
+/* */
+button {
+    font-size: 25px;
+
+}
+
+/*  */
+h1 h2 {
+    color:blue;
+}
+
+/*  */
+
+#signup {
+    background-color: red;
+    color:black;
+}
+
+.semifinals {
+    color:orange;
+}
+
+.post a{
+    color:pink;
+}

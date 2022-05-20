@@ -1,0 +1,30 @@
+/* class selector element for Alabaham & Oklahoma */
+.crimson {
+    color:crimson;
+}
+/* class selector element for Notrre dame & Miami  */
+.green {
+    color:green
+}
+/* class selector element for Michigan */
+.yellow {
+    color:rgba(238, 255, 0, 0.521)
+}
+/* Class selector element for Southern California, Nebraska & Ohio state */
+.red {
+    color:red;
+}
+/* Class selector element for Texas */
+.orange {
+    color:orange;
+}
+/* Id selector element for yes button */
+#yes {
+    background-color:green;
+    color:white;
+}
+/* Id selector element for No button */
+#no {
+    background-color:red;
+    color:white;
+}

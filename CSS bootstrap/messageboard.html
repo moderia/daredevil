@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <!-- links html file to css file -->
+    <link rel="stylesheet" href="messageboard.css">
+</head>
+
+<body>
+    <!-- Input element binded with label element -->
+    <nav>
+    <label for="search">search</label>
+    <Input type="text" placeholder="search" id="search">
+
+    <Input type="password" placeholder="enter password">
+    <button>log in</button>
+    <!-- button element -->
+    <button id="signup">sign up</button>
+
+    </nav>
+
+    
+    <main> 
+        <!-- header -->
+        <h1>Who will win the NBA championship</h1>
+            <!-- Parent element with a class selector -->
+            <section class="post">
+                <!-- span element with an href attribute -->
+                <span>posted by <a href="bucksfan">bucksfan</a></span>
+                <h2>The bucks will win it the championship and Giannis will take home the finals mvp trophy</h2>
+                <!-- button element -->
+                <button>Submit</button>
+            </section>
+            <hr>
+            <!-- parent element with a class selector -->
+            <section class="post">
+                <!-- span element with an href attribute -->
+                <span>posted by <a href="Celticsfan">Celticsfan</a></span>
+                <h2>The Bucks will not beat Celtics in the <span class="semifinals">semifinals</span></h2>
+                <!-- button element -->
+                <button>submit</button>
+            </section>
+            <hr>
+            <!-- Parent element with a class selector -->
+            <section class="post">
+                <!-- Span element with an href attribute -->
+                <span>posted by <a href="dubnation">dubsnation</a></span>
+                <h2> The warriors have the most playoff experience and will be the champions this year</h2>
+                <!-- button element -->
+                <button>submit</button>
+            </section>
+            <!-- line break -->
+            <hr>
+
+
+    </main>
+
+    <!-- footer element with desecent elements of nav, ul, li, and anchor tag link -->
+    <footer>
+        <nav>
+            <!-- unoredred list -->
+            <ul>
+                <!-- list element -->
+                <li>
+                    <!-- anchor tag link inside a list-->
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <!-- anchor tag link inside a list -->
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <!-- anchor tag link inside a list -->
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <!-- anchor tag link inside a list -->
+                    <a href="https://www.google.com">Google</a>
+                </li>
+            </ul>
+        </nav>
+        <!--anchor tag link  -->
+        <a href="https://www.playstation.com/en-us/">playstation</a>
+    </footer>
+
+</body>
+
+</html>
