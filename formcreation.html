@@ -1,0 +1,65 @@
+form2.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<!--This body contains a form with different elements and their own functionalities -->
+
+<body>
+    <section>
+        <h1>Please fill out the form below</h1>
+            <form action="/names">
+                <!-- This is a textbox with a binding label. This textbox is for the first name. -->
+
+                <p>
+                    <label for="firstname">Enter first name:</label>
+                    <input id="firstname" type="text" placeholder="First Name" name="firstname">
+
+                </p>
+
+                <!-- This is a textbox witha binding label. This textbox is for the last name.-->
+
+                <p>
+                    <label for="lastname">Enter last name:</label>
+                    <input id="lastname" type="lastname" placeholder="Last Name" name="lastname">
+
+                </p>
+
+                <!--I have a box combo with 3 options of food.-->
+
+                <P>
+                    <label for="eatfood">What food would you like to eat?</label>
+
+                <!-- I have a select that is binded to a label-->
+
+                    <select name="eat" id="eatfood">
+
+                <!--I have 3 options. Each option contains a value of a type of food-->
+
+                        <option value="chicken">chicken</option>
+
+                        <option value="pizza">pizza</option>
+
+                        <option value="Hamburger">hamburger</option>
+
+                    </select>
+                </P>
+                <!-- This is a textarea that is binded to a label. The textarea contains a placeholder. Textarea has 10 clomuns and 10 rows-->
+                <p>
+                    <label for="allergies">Do you have any allergies?</label>
+
+                    <textarea id="allergies" name="allergies" rows="10" cols="10" placeholder="name of allergies"></textarea>
+                </p>
+                <!--This is a submit button-->
+
+                <button>Submit</button>
+            </form>
+
+    </section>
+</body>
+</html>
